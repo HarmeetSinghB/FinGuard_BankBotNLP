@@ -6,6 +6,7 @@ FinGuard_BankBotNLP is a project focused on using advanced Natural Language Proc
 
 ## Problem Statement
 In the banking sector, chatbots address a range of challenges:
+
 - Enhancing customer service efficiency
 - Reducing operational costs
 - Improving user experience through personalized interactions
@@ -39,10 +40,24 @@ The following key NLP concepts form the backbone of this chatbot solution:
 - TensorFlow / PyTorch: For implementing machine learning models used in intent classification and entity extraction.
 - Pandas / NumPy: For handling and processing large datasets.
 - Docker: To containerize the application for seamless deployment.
-- Power BI: For visualizing sentiment analysis data.
+- Streamlit: For building a GUI interface for user interaction.
 
 ## Future Work and Enhancements
 - Enhanced Personalization: Incorporate more personalized responses based on user data and preferences.
 - Voice Integration: Add support for voice commands and interactions using speech-to-text and text-to-speech technologies.
 - Advanced Fraud Detection: Implement deep learning models for more accurate fraud detection.
 - Multilingual Support: Enable the chatbot to operate in multiple languages, expanding its global reach.
+
+## Setup
+Prerequisites
+- Python 3.8+
+- Flask
+- NLTK / spaCy
+- TensorFlow / PyTorch
+- Streamlit (for GUI)
+
+## Installation
+- Clone the repository
+- Install Streamlit, additional tools, and dependencies
+- Run the chatbot locally
+- Access the Streamlit app via the generated localtunnel URL, which will be displayed in your terminal.
